@@ -1,2 +1,4 @@
-# portfolio
-Портфолио на React
+# Мое портфолио на React
+
+## React + TypeScript
+
