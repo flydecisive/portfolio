@@ -1,0 +1,124 @@
+.wrapper {
+  max-width: 300px;
+  max-height: 525px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 85px 25px 49px 25px;
+  position: relative;
+}
+
+.title {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  color: #0b0909;
+  margin-bottom: 4px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: lightgray 50%;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: -85px;
+  left: center;
+}
+
+.text {
+  color: rgba(11, 9, 9, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 6px;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.contacts {
+  width: 262px;
+  min-height: 262px;
+  border-radius: 20px;
+  background: #f2f5f9;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 40px;
+  margin-left: 41px;
+}
+
+.line {
+  width: 192px;
+  height: 1px;
+  background: #e3e3e3;
+  margin: 0 auto;
+}
+
+.contact-title {
+  color: rgba(26, 16, 3, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  margin-bottom: 8px;
+}
+
+.contact-value {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin: 0 auto;
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(127deg, #ff9c1a 0%, #e80505 100%);
+  color: #f2f7fc;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.download-link {
+  display: flex;
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.title {
+  color: #0b0909;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 100% */
+  letter-spacing: 1px;
+  font-family: Poppins;
+}
+
+.line {
+  width: 252px;
+  height: 2px;
+  background: linear-gradient(127deg, #ff9c1a 0%, #e80505 100%);
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-flow: column wrap;
+  }
+}

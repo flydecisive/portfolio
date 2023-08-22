@@ -1,0 +1,15 @@
+.logo {
+  width: 19px;
+  height: 19px;
+}
+
+.item {
+  width: 45px;
+  height: 45px;
+  background: #f2f7fc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+.title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 166.667% */
+  letter-spacing: 0.693px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}

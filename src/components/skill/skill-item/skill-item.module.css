@@ -1,0 +1,16 @@
+.item {
+  border-radius: 6px;
+  background: #e1e8ef;
+  display: inline-flex;
+  padding: 3px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 200% */
+  letter-spacing: 0.24px;
+}

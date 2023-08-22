@@ -1,0 +1,20 @@
+.logo {
+  color: #000;
+  font-family: Pacifico;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.orange {
+  background: linear-gradient(180deg, #ff9c1a 0%, #ed250a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Pacifico;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

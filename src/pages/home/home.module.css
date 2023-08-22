@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 100px;
+  position: relative;
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .wrapper {
+    align-items: center;
+    gap: 15px;
+  }
+}
