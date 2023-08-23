@@ -17,7 +17,7 @@ export function MainWork() {
           <MainWorkElement
             heading="Музыкальный плеер"
             imgSrc={player}
-            link="https://github.com/flydecisive/react-music-player"
+            link="https://flydecisive.github.io/react-music-player/"
           />
           <MainWorkElement
             heading="Карточная игра"

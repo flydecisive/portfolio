@@ -4,22 +4,34 @@ import { Title } from '../../title/title';
 import { MainContactElement } from './main-contact-element/main-contact-element';
 import { contentContact } from '../../../consts/consts';
 import { NavLink } from 'react-router-dom';
-import { sendForm } from '../../../api/api';
+import emailjs, { init } from '@emailjs/browser';
+import { useRef } from 'react';
 
 import styles from './main-contact.module.css';
 
 export function MainContact() {
+  init('LkN6MTf9CK9MkYpyp');
+  const form = useRef(null);
   const [formState, setFormState] = useState({
     name: '',
     email: '',
     message: '',
-    sent: false,
-    error: null,
   });
 
   const formSubmittionHandler = (event: any) => {
     event.preventDefault();
-    sendForm(formState);
+    if (form.current !== null) {
+      emailjs
+        .sendForm('default_service', 'template_2qyxgyg', form.current)
+        .then(
+          function (response) {
+            console.log('SUCCESS!', response.status, response.text);
+          },
+          function (error) {
+            console.log('FAILED...', error);
+          }
+        );
+    }
   };
   return (
     <div className={styles.wrapper}>
@@ -34,7 +46,7 @@ export function MainContact() {
             <MainContactElement primary={false} content={contentContact[1]} />
           </NavLink>
         </div>
-        <form action="send.php" method="POST" className={styles.form}>
+        <form className={styles.form} ref={form}>
           <p>
             Я всегда открыт к обсуждениям, напишите мне и я свяжусь с вами. Либо
             вы можете самостоятельно связаться со мной.
