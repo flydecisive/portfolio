@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.efbbeb3c.css",
+    "main.js": "/portfolio/static/js/main.1640fd8f.js",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.213eaffdc454d83614ad.pdf",
+    "static/media/player.png": "/portfolio/static/media/player.cf5705858d2c242d165c.png",
+    "static/media/cards.png": "/portfolio/static/media/cards.3ca99b4ab2ecc938d0c2.png",
+    "static/media/avatar.jpeg": "/portfolio/static/media/avatar.3b5f7e7acc1669187e51.jpeg",
+    "static/media/fluent-emoji-high-contrast_e-mail.svg": "/portfolio/static/media/fluent-emoji-high-contrast_e-mail.2f870ebc9d25d1064375e40694e1023f.svg",
+    "static/media/resume-icon.svg": "/portfolio/static/media/resume-icon.9ebac5f8419db7937b1f33703b1b3b67.svg",
+    "static/media/humbleicons_briefcase.svg": "/portfolio/static/media/humbleicons_briefcase.3b98984cf24cfa9c52ba50ae9ea64cc1.svg",
+    "static/media/github-142-svgrepo-com.svg": "/portfolio/static/media/github-142-svgrepo-com.077a3fdbee9cbcbfd1a2d29bb167cece.svg",
+    "static/media/Phone.svg": "/portfolio/static/media/Phone.b1afae87f9e91f0a14a2e47a56ad792d.svg",
+    "static/media/vk-1-logo-svgrepo-com.svg": "/portfolio/static/media/vk-1-logo-svgrepo-com.abbd370a41987fdd60848215c3859bbe.svg",
+    "static/media/telegram-svgrepo-com.svg": "/portfolio/static/media/telegram-svgrepo-com.3295c7bd9bf1124c19a978b2c44e09c8.svg",
+    "static/media/Mentor-icon.svg": "/portfolio/static/media/Mentor-icon.c1dff02343964c91c6586819d2327046.svg",
+    "static/media/icon-park-outline_degree-hat.svg": "/portfolio/static/media/icon-park-outline_degree-hat.06a7d8ed5e735684854776c5ca5a6418.svg",
+    "static/media/ion_location-outline.svg": "/portfolio/static/media/ion_location-outline.14c247e198ab2386d210f07a4fa7b58c.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/contact-icon.svg": "/portfolio/static/media/contact-icon.5283835067aa4ce4566ea83bb748e3b7.svg",
+    "static/media/gridicons_phone.svg": "/portfolio/static/media/gridicons_phone.ac5f20d6d9aee3a076c4d1ed5d7b974f.svg",
+    "static/media/Home-icon.svg": "/portfolio/static/media/Home-icon.7def8d83c6bc0f43f7bb9ad577d93582.svg",
+    "static/media/work-icon.svg": "/portfolio/static/media/work-icon.2ca15a353e0b02c498166ba75f4527a2.svg",
+    "static/media/mdi_email-open-outline.svg": "/portfolio/static/media/mdi_email-open-outline.12421c092a1d7248c3418c395961bbb4.svg",
+    "static/media/material-symbols_download.svg": "/portfolio/static/media/material-symbols_download.958bf98b0971991d204fa84e083089db.svg",
+    "static/media/code-icon.svg": "/portfolio/static/media/code-icon.5399778a186a48860f8da9abfd92c397.svg",
+    "main.efbbeb3c.css.map": "/portfolio/static/css/main.efbbeb3c.css.map",
+    "main.1640fd8f.js.map": "/portfolio/static/js/main.1640fd8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efbbeb3c.css",
+    "static/js/main.1640fd8f.js"
+  ]
+}
