@@ -18,6 +18,12 @@
   padding-right: 40px;
 }
 
+.elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
 @media (min-width: 360px) and (max-width: 480px) {
   .wrapper {
     flex-direction: column;
@@ -37,5 +43,11 @@
     flex-flow: column wrap;
     align-items: center;
     box-sizing: border-box;
+  }
+
+  .elements {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
   }
 }

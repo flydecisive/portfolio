@@ -5,6 +5,7 @@ import styles from './main-work.module.css';
 import { MainWorkElement } from './main-work-element/main-work-element';
 import player from '../../../assets/img/projects/player.png';
 import cards from '../../../assets/img/projects/cards.png';
+import furniture from '../../../assets/img/projects/furniture.png';
 
 export function MainWork() {
   return (
@@ -21,7 +22,12 @@ export function MainWork() {
           <MainWorkElement
             heading="Карточная игра"
             imgSrc={cards}
-            link="https://github.com/flydecisive/card_game"
+            link="https://flydecisive.github.io/card_game/"
+          />
+          <MainWorkElement
+            heading="Мебельный магазин"
+            imgSrc={furniture}
+            link="https://flydecisive.github.io/furniture-store/"
           />
         </div>
       </div>
