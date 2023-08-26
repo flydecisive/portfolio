@@ -6,8 +6,6 @@ import { ReactComponent as ContactLogo } from '../../assets/img/contact-icon.svg
 import { usePageContext } from '../../contexts';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 
-// Сделать состояние для нажатах кнопок
-
 export function Nav() {
   const { toggleClick } = usePageContext();
 

@@ -74,6 +74,8 @@
   .nav {
     position: sticky;
     bottom: 0px;
+    top: 0px;
     width: 340px;
+    margin-top: 10px;
   }
 }

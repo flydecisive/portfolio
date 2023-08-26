@@ -8,6 +8,7 @@
 @media (min-width: 360px) and (max-width: 480px) {
   .wrapper {
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    min-height: 100dvh;
   }
 }

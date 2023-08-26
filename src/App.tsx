@@ -57,7 +57,7 @@ function App() {
 
   useEffect(() => {
     const userNavigate = () => {
-      navigate('/portfolio');
+      navigate('/portfolio/');
     };
     window.addEventListener('beforeunload', userNavigate);
     return () => {
